@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T02:25:58.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" version="22.1.0" etag="2cr3nSwh1P8XTvA28ZuS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T02:36:49.402Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="bWQt-mWbnQ2vYcNaGbtV" version="22.1.0" type="github">
   <diagram name="Page-1" id="HwX00dk__h2ag6gLHclP">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1110" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VmtdbH44lMCPrnUxbE_m-2" value="Using the example of a database you can create a new database connection" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmtdbH44lMCPrnUxbE_m-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;When you connect to a database in go you get back a pointer&amp;nbsp; to a sql.DB&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;a sql.DB looks like this&amp;nbsp;https://cs.opensource.google/go/go/+/refs/tags/go1.21.4:src/database/sql/sql.go;l=455&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;not only does it hold all those variable that you don&#39;t really need to care about it also has methods on it like&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Exec&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Query&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;QueryRow&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;These are really the only thing we care about so when we get back a sql.DB we can&amp;nbsp; use sql.DB.Exec()&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="118" width="600" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
